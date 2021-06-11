@@ -1,25 +1,26 @@
+
 .cellp:nth-child(1) {
-    background: #eaeaea;
+    background: #F8F9FA;
 }
 .cellp:nth-child(2) {
-    background: #eaeaea;
+    background: #F8F9FA;
 }
 .cellp:nth-child(5) {
-    background: #eaeaea;
+    background: #F8F9FA;
 }.cellp:nth-child(6) {
-    background: #eaeaea;
+    background: #F8F9FA;
 }
 
 .cellp:nth-child(9) {
-    background: #eaeaea;
+    background: #F8F9FA;
 }
 .cellp:nth-child(10) {
-    background: #eaeaea;
+    background: #F8F9FA;
 }
 .cellp:nth-child(13) {
-    background: #eaeaea;
+    background: #F8F9FA;
 }.cellp:nth-child(14) {
-    background: #eaeaea;
+    background: #F8F9FA;
 }
 
 .cellp{
@@ -27,6 +28,7 @@
     align-items: center;
     color: black !important;
     font-size: 16px;
+    height: 33px;
 }
 
 .title-table{
@@ -57,7 +59,8 @@
     font-size: 18px; 
     border: none !important;
     border-collapse: none;
-    padding-bottom: 8px !important;
+    padding-bottom: 20px !important;
+    align-items: center;
 }
 
 .no-border{
@@ -65,5 +68,18 @@
 }
 
 .last-cell{
-    border-bottom: solid 1px #e4e4e4
+    border-bottom: solid 1px #6c6c6c;
+}
+
+.ml-au-le{
+    margin-left: auto;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#productCaracteristic svg{
+    font-size: 13px;
+    margin-right: 0;
+    margin-top: 1px;
+
 }
